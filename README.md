@@ -58,6 +58,7 @@ This project adheres to the Contributor Covenant [code of conduct](/CODE_OF_COND
 The theme can be installed by running the following commands inside your **Hugo website** folder.
 ```shell
 cd themes
+git init
 git submodule add https://github.com/UtkarshVerma/hugo-dream-plus dream-plus
 git submodule update --init --recursive
 ```
